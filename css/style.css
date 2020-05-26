@@ -207,14 +207,19 @@ ul li{
     }
 
     .main-footer ul{
-        padding: 56px;
+        display: inline-block;
+        padding: 40px 0;
+        margin: 16px 0;
+        overflow: hidden;
+        width: 60%;
     }
 
     .main-footer ul li{
+        float: left;
         background-color: #c80000;
-        display: inline-block;
-        width: 10%;
         border-left: 1px solid white;
+        padding: 0 10px;
+        width: 15%;
     }
 
     .main-footer ul li:nth-child(1){
@@ -222,7 +227,7 @@ ul li{
     }
 
     .main-footer ul li a{
-        text-transform: capitalize;                      
+        text-transform: capitalize;               
     }
 
 }
