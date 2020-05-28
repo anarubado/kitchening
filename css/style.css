@@ -35,28 +35,26 @@ header, footer{
     margin: 20px;
 }
 
-span{
+ span.fa.fa-bars{
     color: white;
     padding: 10px;
     background-color: #444444;
 }
 
-ul{
+.main-nav ul, .main-footer ul{
     list-style-type: none;
 }
 
-ul li{
+.main-nav ul li, .main-footer ul li{
     background-color: #444444;
     margin-bottom: 2px;
-    width: 100%;
 }
 
 .main-nav ul li a, .main-footer ul li a{
     display: inline-block;
-    text-transform: uppercase;
     width: 100%;
+    text-transform: uppercase;
     padding: 8px 0;
-    font-size: 1em;
 }
 
 .banner{
@@ -69,7 +67,6 @@ ul li{
 
 .product{
     float: left;
-    width: 100%;
     margin-top: 20px;
 }
 
@@ -91,7 +88,7 @@ ul li{
 
 .special{
     position: absolute;
-    width: 30%;
+    width: 20%;
     top: 0%;
     right: 5%
 }
@@ -142,19 +139,16 @@ ul li{
     }
 
     .main-nav{
-        width: 100%;
         margin-top: 30px;
     }
 
     .main-nav ul{
         overflow: hidden;
-
     }
 
     .main-nav ul li{
         float: left;
         width: 15.25%;
-        height: 4.23%;
         margin-left: 1.69%;        
     }
 
@@ -165,7 +159,7 @@ ul li{
     .product{
         float: left;
         width: 49%;
-        margin-top: 0;
+        margin-top: 0%;
         margin-right: 1%;
         margin-bottom: 30px;
     }
@@ -174,8 +168,6 @@ ul li{
         margin-left: 1%;
         margin-right: 0%;
     }
-
-
 }
 
 @media (min-width: 1200px){
@@ -184,27 +176,21 @@ ul li{
         max-width: 1200px;
     }
 
-    .main-nav ul li{
-        margin-left: 20px ;
-
-    }
-
     .main-nav ul li a{
         padding: 15px;
     }
 
     .product, .product:nth-child(even){
         width: 32.2%;
-        margin-top: 0;
+        margin-top: 0%;
         margin-left: 1.69%;
-        margin-right: 0;
+        margin-right: 0%;
         margin-bottom: 30px;
 
     }
 
     .product:nth-child(1), .product:nth-child(4){
         margin: 0 0 30px 0;
-
     }
 
     .main-footer{
@@ -221,10 +207,8 @@ ul li{
 
     .main-footer ul li{
         float: left;
-        background-color: transparent;
+        background-color: transparent;        
         border-left: 1px solid white;
-        padding: 10px;
-        width: fit-content;
         line-height: 5px;
     }
 
@@ -234,7 +218,7 @@ ul li{
 
     .main-footer ul li a{
         text-transform: capitalize;
-        padding: 0;               
+        padding: 10px;           
     }
 
 }
