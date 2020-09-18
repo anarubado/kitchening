@@ -14,5 +14,5 @@
 
 ### ◼️ Desktop
 <img src="images/mockups/wireframe-desktop.jpg" alt="wf-desktop" height="1000px">
-<img src="images/mockups/medidas-escritorio.jpg" alt="desktop-measurements" height="1000px">
+<img src="images/mockups/medidas-escritorio.jpg" alt="desktop-measurements">
 
