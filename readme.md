@@ -6,13 +6,13 @@
 
 ## Wireframes
 
-Mobile
+### Mobile
 <img src="images/mockups/wireframe-mobile.jpg" alt="wf-mobile">
 
-Tablet
+### Tablet
 <img src="images/mockups/wireframe-tablet.jpg" alt="wf-tablet">
 
-Desktop
+### Desktop
 <img src="images/mockups/wireframe-desktop.jpg" alt="wf-desktop">
 <img src="images/mockups/medidas-escritorio.jpg" alt="desktop-measurements">
 
